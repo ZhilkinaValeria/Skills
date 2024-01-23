@@ -1,4 +1,4 @@
-package org.example.Solution;
+package org.example.Basics.Sort;
 
 public class SortBySelect2 {
     public static int[] sortBySelect2(int [] array){

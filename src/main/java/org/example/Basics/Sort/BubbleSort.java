@@ -1,6 +1,6 @@
-package org.example.Solution;
+package org.example.Basics.Sort;
 
-public class bubbleSort {
+public class BubbleSort {
     public static int[] bubleSort(int[] array) { //медленная, т.к. имеет вложенные циклы
         for (int i = array.length - 1; i > 1; i--) {
             for (int j = 0; j < i; j++) {

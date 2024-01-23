@@ -1,11 +1,11 @@
-package org.example.Solution;
+package org.example.Basics.Sort;
 
-public class InsectionSort {
+public class InjectionSort {
     public static int[] insectionSort(int [] array){
         for (int i = 1; i < array.length; i++){
             int temp = array[i];
             int j = i;
-            while (j > 0 && array[j - i] >= temp){
+            while (j > 1 && array[j - i] >= temp){
                 array[j] = array[j - 1];
                 --j;
             }

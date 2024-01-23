@@ -1,4 +1,4 @@
-package org.example.Solution;
+package org.example.Basics.Sort;
 
 public class SortBySelect {
     public static int[] sortBySelect(int [] array){ // Последовательный перебор всех чисел и выбор меньшего эл., кот.меняют местами с крайним эл слева9 0 эл)
